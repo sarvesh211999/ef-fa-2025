@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "ef"
+version = "0.1.0"
+description = ""
+authors = ["Sarvesh Mehta <sarvesh211999@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pipecat = "^0.3.0"
+pipecat-ai = "^0.0.74"
+deepgram-sdk = "^4.5.0"
+cartesia = "^2.0.5"
+python-dotenv = "^1.1.1"
+pyaudio = "^0.2.14"
+sounddevice = "^0.5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
